@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Examen - HTML en globalité" content="TP du 16/02/23 sur tout le HTML vu jusqu'ici">
+    <title>HTML + CSS</title>
+    <link href="./style.css" rel=stylesheet>
+    <link rel="icon" href="icone.png">
+</head>
+</html>
+
+<body>
+    <header>
+        <H1>HTML dans sa globalité</H1>
+    </header>
+    <main>
+        <article>
+        <div>
+        <h2>Bonjour</h2>
+        <p>
+        Je m'appelle <em><strong>Vincent</strong></em> <em><strong>Verhaeghe</strong></em>, j'ai <em><strong>34ans</strong></em>, 
+        sans enfant car mes projets et mes passions passent en prioritées.
+        Pour ce qui est de mes passions la principale et <em>voyage en road trip</em>, pas de bronzette sur la plage, seulement de la <em>decouverte et de l'aventure</em>.
+        Mes projets ? <em><strong> gagné sufisement d'argent</strong></em> pour pouvoir alimenté cette passion.
+        </p>
+        </div>
+    <hr>
+        <div>
+            <h2>Mon parcours</h2>
+            <ul>
+            <li>BEP PMU</li>
+            <li>BEP MSMA</li>
+            <li>TP CAIC</li>
+            <li>MS Referent Digitale</li>
+            <li>TP DWWM</li>
+            </ul>
+        </div>
+    <hr>
+        <div>
+            <h2>Me contacter</h2>
+            <p>
+            <a href="tel:+330749120321"  rel="nofollow" title="Mon numero de telephone" target="_blank">Mon numero de telephone</a><br> 
+            <a href="vincent.verhaeghe88@hotmail.com"  rel="nofollow" title="Mon adresse email" target="_blank">Mon adresse mail</a>
+            </p>
+            <h3>Formulaire de contact :</h3>
+            <form action="#" method="post">
+        <div>
+            <label for="homme">Homme ♂</label>
+            <input type="radio" name="genre" id="homme" value="Homme">
+        </div>
+        <div>
+            <label for="femme">Femme ♀</label>
+            <input type="radio" name="genre" id="femme" value="Femme">
+        </div>
+        <div>
+            <label for="nom&prenom">Nom & Prenom :</label>
+            <input type="text" name="name" id="nom&prenom" placeholder="ex : Didier Deschamps">
+        </div>
+        <div>
+            <label for="age">Age :</label>
+            <input type="number" name="age" id="age" placeholder="ex : 52">
+        </div>
+        <div>
+            <label for="mail">E-mail :</label>
+            <input type="email" name="Mail" id="mail" placeholder="ex : prenmo@domain.com">
+        </div>
+        <!--"Je n'ai pas reussi a trouver pour faire l'onglet "sujet" (manque de temps)-->
+        <div>
+            <div>
+                <label for="msg">Votre message :</label>
+            </div>
+            <textarea name="comment" id="message" rows="8" cols="50" placeholder="ex : madame, Monsieur ..."></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="Coche" name="acceptmention">
+            <label for="acceptmention">En cochant cette case j'accepte les conditions relatives a
+                         l'utilisations de mes données personnelles décrites dans <a href="http://" target="_blank">mentions legales</a>.</label>
+        </div>
+            <input type="submit" value="Envoyer le message">
+            </form>
+        </div>
+        <div>
+            <h2>Mes compétences en web</h2>
+            <table border>
+                <thead>
+                    <tr>
+                        <th>Technologie</th>
+                        <th>Debutant</th>
+                        <th>Moyen</th>
+                        <th>Bon</th>
+                        <th>Expert</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="html.svg" alt="Logo HTML"></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img src="css.svg" alt="Logo CSS"></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img src="js.svg" alt="Logo JS"></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img src="php.svg" alt="Logo SVG"></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img src="sql.svg" alt="Logo SQL"></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+        </article>
+    <footer>
+        <p>Voici le footer.</p>
+        <iframe id="mapsjt"
+    title="googlemapsoissons"
+    width="600"
+    height="200"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.4472460282334!2d3.329087190057604!3d49.37984342636689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e85ec6fd1d39c9%3A0x11e8f59e592f27b6!2sSolidarit%C3%A9%20et%20Jalons%20pour%20le%20Travail!5e0!3m2!1sfr!2sfr!4v1676543579022!5m2!1sfr!2sfr">
+        </iframe>
+    </footer>
+    <!--Pas réussi a corriger toutes mes erreurs sur le checker w3-->
+</body>
+</html>
